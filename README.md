@@ -8,4 +8,5 @@
 
 ![](https://miro.medium.com/max/1400/1*RO5bchyCsHmUm_6mg-KnSw.jpeg)
 
+* Two re-usable components in the project are the image and product components. The same format is used to every item listed in the project.
 
