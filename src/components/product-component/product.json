@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_product_component_products",
+  "info": {
+    "displayName": "Product",
+    "icon": "info-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Exerpt": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "decimal"
+    },
+    "Size": {
+      "type": "enumeration",
+      "enum": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    }
+  }
+}

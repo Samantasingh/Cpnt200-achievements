@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blue_shirts",
+  "info": {
+    "singularName": "blue-shirt",
+    "pluralName": "blue-shirts",
+    "displayName": "Blue shirt",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BlueShirtInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product-component.product"
+    },
+    "BlueShirtImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image-components.image"
+    },
+    "Colour": {
+      "type": "enumeration",
+      "enum": [
+        "Sky Blue"
+      ]
+    }
+  }
+}

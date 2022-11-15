@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coats",
+  "info": {
+    "singularName": "coat",
+    "pluralName": "coats",
+    "displayName": "Coat",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CoatInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product-component.product"
+    },
+    "CoatImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image-components.image"
+    },
+    "Colour": {
+      "type": "enumeration",
+      "enum": [
+        "Oatmeal Brown"
+      ]
+    }
+  }
+}

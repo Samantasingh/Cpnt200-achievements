@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "red_dresses",
+  "info": {
+    "singularName": "red-dress",
+    "pluralName": "red-dresses",
+    "displayName": "Red Dress",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "DressIinfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product-component.product"
+    },
+    "DressImage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "image-components.image"
+    },
+    "Colour": {
+      "type": "enumeration",
+      "enum": [
+        "Maroon"
+      ]
+    }
+  }
+}

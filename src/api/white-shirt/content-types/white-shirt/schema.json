@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "white_shirts",
+  "info": {
+    "singularName": "white-shirt",
+    "pluralName": "white-shirts",
+    "displayName": "White Shirt",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "WhiteShirtInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product-component.product"
+    },
+    "WhiteShirtImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image-components.image"
+    },
+    "Colour": {
+      "type": "enumeration",
+      "enum": [
+        "White"
+      ]
+    }
+  }
+}

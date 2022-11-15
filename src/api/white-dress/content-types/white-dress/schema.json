@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "white_dresses",
+  "info": {
+    "singularName": "white-dress",
+    "pluralName": "white-dresses",
+    "displayName": "White Dress",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "WhiteDressInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "product-component.product"
+    },
+    "WhiteDressImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "image-components.image"
+    },
+    "Colour": {
+      "type": "enumeration",
+      "enum": [
+        "White"
+      ]
+    }
+  }
+}
