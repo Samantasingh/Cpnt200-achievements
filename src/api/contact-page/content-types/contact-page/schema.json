@@ -4,7 +4,8 @@
   "info": {
     "singularName": "contact-page",
     "pluralName": "contact-pages",
-    "displayName": "Contact Page"
+    "displayName": "Contact Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,23 +13,72 @@
   "pluginOptions": {},
   "attributes": {
     "Mobile": {
-      "type": "biginteger"
+      "type": "integer"
     },
     "Email": {
       "type": "email"
     },
-    "SocialMediaIcons": {
+    "Instagram": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
-    "SocialLinks": {
+    "InstagramLink": {
       "type": "string"
+    },
+    "Twitter": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "TwitterLink": {
+      "type": "string"
+    },
+    "Linkedin": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "LinkedinLink": {
+      "type": "string"
+    },
+    "Tiktok": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "TiktokLik": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Headline": {
+      "type": "text"
     }
   }
 }
