@@ -1,6 +1,5 @@
 ### Strapi Content
 ###### CPNT 200 - [Achievements](https://sait-wbdv-f22.netlify.app/courses/cpnt-200/assessments/achievements)
-###### Deployed project - [Render]()
 ###### By [Samanta Singh](https://github.com/Samantasingh?tab=repositories)
 ### Attributions
 ###### - Images - [Unsplash](https://unsplash.com/s/photos/clothes)
